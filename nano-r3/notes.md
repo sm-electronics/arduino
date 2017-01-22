@@ -1,6 +1,7 @@
 #Notes on Arduino Nano r3 
 
-1. Arduino IDE - Issue
+1. Arduino IDE - Issue (Ubuntu 14x)
+
 While trying to upload a sketch, I got the following error
 
 ```
