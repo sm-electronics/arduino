@@ -28,7 +28,7 @@ or 5V regulated external power supply (pin 27). The power source is automaticall
 ####Memory
 The ATmega328 has 32 KB, (also with 2 KB used for the bootloader. The ATmega328 has 2 KB of SRAM and 1 KB of EEPROM. 
 
-###Input and Output
+####Input and Output
 Each of the 14 digital pins on the Nano can be used as an input or output, 
   using pinMode(), digitalWrite(), and digitalRead() functions. 
 
