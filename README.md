@@ -12,3 +12,6 @@ all my Arduino projects notes and resource links
 
 #### Tools
 1. [EasyEDA - Online PCB Design Tools](https://easyeda.com/)
+
+###Resources
+1. [Seeed Studio](https://www.seeedstudio.com/)
