@@ -1,0 +1,40 @@
+#Ultimate UNO Parts List
+
+- (1) Arduino UNO R3 Microcontroller w/ USB (Made in Italy)
+- (1) Breadboard w/ Holder
+- (65) M-M Jumper Wires
+- (5) F-F Jumper Wires
+- (1) Digital Multimeter
+- (1) Illustrated Guide Book
+- (1) Futaba S3003 Servo Motor
+- (1) 9V Power Adapter
+- (1) 1602 LCD Screen
+- (1) Protoshield w/ Mini Breadboard
+- (1) IR Remote Controller w/ Receiver
+- (2) 7 Seg. Displays (1 & 4 digit)
+- (1) Stepper Motor w/ Driver (1) DC Motor
+
+- (100) Assorted Resistors (10x/ 10, 100, 200, 330, 1k, 2k, 5.1k, 10k, 100k, 1m ohm)
+- (1) 8-Bit Shift Register
+- (1) L293D Motor Driver
+- (1) 40Pin Headers
+- (2) Photoresistors
+- (5) Push Buttons
+- (2) Tip-120 Transistors
+- (1) 10K Potentiometer
+- (1) 1-Ch. Relay Module
+- (1) Joystick Module
+- (1) HC-SR04 Ultrasonic Range Finder
+- (5) 1N4001 Diodes
+- (1) Toggle Switch
+- (4) Assorted NPN Transistors
+- (1) Hall Effect Sensor
+- (14) Assorted Capacitors (22pF, 0.1uF, 10uF, 100uF)
+- (1) MPU-6050 Accelerometer + Gyro. Module
+- (1) 8×8 LED Matrix Module
+- (25) 5mm LEDs (Assorted Colors)
+- (1) RGB LED (Common Cathode)
+- (2) Plastic Organizer (Small & Large)
+- (2) Alligator Clips
+- (1) Termistor
+- (1) 9V Battery Wire
