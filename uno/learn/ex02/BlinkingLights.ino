@@ -1,5 +1,5 @@
-/* ***********************************************************
- *  Blinking Lights
+ /* ***********************************************************
+ *  Blinking Lights with delay
  *
  * smtechnocrat 
  ***************************************************************/
@@ -48,12 +48,12 @@ void loop() {
     } else {
       ledState = LOW;
     }
-
-    // set the LED with the ledState of the variable:
-    digitalWrite(ledPin2, ledState);
-    digitalWrite(ledPin3, ledState);
-    digitalWrite(ledPin4, ledState);
-    digitalWrite(ledPin5, ledState);
-    digitalWrite(ledPin6, ledState);
+    int d = 500;
+    for ( int a = 6 ; a >  1 ; a-- ) {
+      digitalWrite(a, ledState);
+      delay(d);
+      digitalWrite(a, ledState);
+      delay(d);
+    }
   }
 }
