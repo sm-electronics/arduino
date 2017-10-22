@@ -24,11 +24,12 @@
 - Next use BBC Micro to control 
 
 ### Issues 
-The following #define line is needed in order to get rid of the pragma messages which is a IDE bug, otherwise this code will not compile. Put this line before including the FASTLed library
+1. The following #define line is needed in order to get rid of the pragma messages which is a IDE bug, otherwise this code will not compile. Put this line before including the FASTLed library
 ```
   #define FASTLED_INTERNAL
 ```
-- Upload of code to Arduino fails if the USB port does not have the permission to write
+
+2. Upload of code to Arduino fails if the USB port does not have the permission to write
 ```
    sudo chown root:smdeveloper /dev/ttyACMO
  ```
