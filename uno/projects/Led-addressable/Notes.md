@@ -19,4 +19,12 @@
 - To control the WS2812B LED strip, you’ll need to download the FastLED library
 - Neopixel - need to try out this library as well
 
+### Notes
+- Using 30 LEDs in each strip
+- Next use BBC Micro to control 
 
+### Issues 
+The following #define line is needed in order to get rid of the pragma messages which is a IDE bug, otherwise this code will not compile. Put this line before including the FASTLed library
+```
+  #define FASTLED_INTERNAL
+```
