@@ -6,4 +6,6 @@
 - This kind of strips are very flexible and can be cut to any length you want. Each strip is divided into segments, and each segment contains one RGB LED.  
 - The LED strip should be powered using a 5V power source. At 5V, each LED draws about 50mA, when set to its full brightness.  This means that for every 30 LEDs, the strip may draw as much as 1.5 A. Make sure you select a power source that matches the strip’s needs.
 
+### Schematics
+![](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2016/09/WS2812B-with-Arduino_bb.png?w=700&ssl=1)
 
