@@ -33,3 +33,5 @@
 ```
    sudo chown root:smdeveloper /dev/ttyACMO
  ```
+### References
+[Strip effects](https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/)
