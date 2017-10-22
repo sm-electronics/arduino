@@ -9,3 +9,14 @@
 ### Schematics
 ![](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2016/09/WS2812B-with-Arduino_bb.png?w=700&ssl=1)
 
+### Additional connectors
+- Use a capacitor with a capacitance between 100uF and 1000uF from power to ground to smooth out the power supply.
+- Add a 220 or 470 Ohm resistor between the Arduino digital output pin and the strip data input pin to reduce noise on that line.
+- Make your wires between the arduino, power supply and the strip as short as possible to minimize voltage loss.
+- If the strip gets damaged and doesn’t work, check if the first LED is broken. If so, cut it, resolder the header pins, and it should be working again.
+
+### Libraries Used
+- To control the WS2812B LED strip, you’ll need to download the FastLED library
+- Neopixel - need to try out this library as well
+
+
