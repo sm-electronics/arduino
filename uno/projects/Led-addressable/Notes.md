@@ -28,3 +28,7 @@ The following #define line is needed in order to get rid of the pragma messages 
 ```
   #define FASTLED_INTERNAL
 ```
+- Upload of code to Arduino fails if the USB port does not have the permission to write
+```
+   sudo chown root:smdeveloper /dev/ttyACMO
+ ```
