@@ -46,9 +46,11 @@ void setup() {
     currentBlending = LINEARBLEND;
 }
 
-
-void loop()
-{
+/** 
+ * Driver function to insert all LED strip control functions.
+ *
+ */
+void loop() {
     ChangePalettePeriodically();
     
     static uint8_t startIndex = 0;
@@ -60,8 +62,7 @@ void loop()
     FastLED.delay(1000 / UPDATES_PER_SECOND);
 }
 
-void FillLEDsFromPaletteColors( uint8_t colorIndex)
-{
+void FillLEDsFromPaletteColors( uint8_t colorIndex) {
     uint8_t brightness = 255;
     
     for( int i = 0; i < NUM_LEDS; i++) {
@@ -79,8 +80,7 @@ void FillLEDsFromPaletteColors( uint8_t colorIndex)
 // Additionally, you can manually define your own color palettes, or you can write
 // code that creates color palettes on the fly.  All are shown here.
 
-void ChangePalettePeriodically()
-{
+void ChangePalettePeriodically() {
     uint8_t secondHand = (millis() / 1000) % 60;
     static uint8_t lastSecond = 99;
     
@@ -101,8 +101,7 @@ void ChangePalettePeriodically()
 }
 
 // This function fills the palette with totally random colors.
-void SetupTotallyRandomPalette()
-{
+void SetupTotallyRandomPalette() {
     for( int i = 0; i < 16; i++) {
         currentPalette[i] = CHSV( random8(), 255, random8());
     }
@@ -112,8 +111,7 @@ void SetupTotallyRandomPalette()
 // using code.  Since the palette is effectively an array of
 // sixteen CRGB colors, the various fill_* functions can be used
 // to set them up.
-void SetupBlackAndWhiteStripedPalette()
-{
+void SetupBlackAndWhiteStripedPalette() {
     // 'black out' all 16 palette entries...
     fill_solid( currentPalette, 16, CRGB::Black);
     // and set every fourth one to white.
@@ -121,12 +119,10 @@ void SetupBlackAndWhiteStripedPalette()
     currentPalette[4] = CRGB::White;
     currentPalette[8] = CRGB::White;
     currentPalette[12] = CRGB::White;
-    
 }
 
 // This function sets up a palette of purple and green stripes.
-void SetupPurpleAndGreenPalette()
-{
+void SetupPurpleAndGreenPalette() {
     CRGB purple = CHSV( HUE_PURPLE, 255, 255);
     CRGB green  = CHSV( HUE_GREEN, 255, 255);
     CRGB black  = CRGB::Black;
@@ -143,8 +139,7 @@ void SetupPurpleAndGreenPalette()
 // which is stored in PROGMEM (flash), which is almost always more
 // plentiful than RAM.  A static PROGMEM palette like this
 // takes up 64 bytes of flash.
-const TProgmemPalette16 myRedWhiteBluePalette_p PROGMEM =
-{
+const TProgmemPalette16 myRedWhiteBluePalette_p PROGMEM = {
     CRGB::Red,
     CRGB::Gray, // 'white' is too bright compared to red and blue
     CRGB::Blue,
