@@ -13,6 +13,7 @@ all my Arduino projects notes and resource links
 
 #### Tools
 1. [EasyEDA - Online PCB Design Tools](https://easyeda.com/)
+2. [Travis Arduino Continous Integration](https://github.com/adafruit/travis-ci-arduino)
 
-###Resources
+### Resources
 1. [Seeed Studio](https://www.seeedstudio.com/)
