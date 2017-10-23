@@ -35,3 +35,4 @@
  ```
 ### References
 [Strip effects](https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/)
+[Blinky Tape](http://blinkinlabs.com/blinkytape/)
