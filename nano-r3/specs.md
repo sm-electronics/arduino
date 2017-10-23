@@ -1,4 +1,4 @@
-#Arduino Nano Tech Specs
+# Arduino Nano Tech Specs
 
 <b>Technical specs</b>
 
@@ -21,14 +21,14 @@
 
 ---
 
-####Power
+#### Power
 The Arduino Nano can be powered via the Mini-B USB connection, 6-20V unregulated external power supply (pin 30), 
 or 5V regulated external power supply (pin 27). The power source is automatically selected to the highest voltage source. 
 
-####Memory
+#### Memory
 The ATmega328 has 32 KB, (also with 2 KB used for the bootloader. The ATmega328 has 2 KB of SRAM and 1 KB of EEPROM. 
 
-####Input and Output
+#### Input and Output
 Each of the 14 digital pins on the Nano can be used as an input or output, 
   using pinMode(), digitalWrite(), and digitalRead() functions. 
 
@@ -53,7 +53,7 @@ There are a couple of other pins on the board:
 
 - Reset. Bring this line LOW to reset the microcontroller. Typically used to add a reset button to shields which block the one on the board.
 
-####Communication
+#### Communication
 
 The Arduino Nano has a number of facilities for communicating with a computer, another Arduino, or other microcontrollers. 
 The ATmega328 provide UART TTL (5V) serial communication, which is available on digital pins 0 (RX) and 1 (TX). An FTDI FT232RL on the 
@@ -64,13 +64,13 @@ A SoftwareSerial library allows for serial communication on any of the Nano's di
 The ATmega328 also support I2C (TWI) and SPI communication. The Arduino software includes a Wire library to simplify use of the
 I2C bus. To use the SPI communication, please see ATmega328 datasheet. 
 
-####Programming
+#### Programming
 
 The Arduino Nano can be programmed with the Arduino software (download). Select "Arduino Duemilanove or Nano w/ ATmega328" from the Tools > Board menu (according to the microcontroller on your board). 
 The ATmega328 on the Arduino Nano comes preburned with a bootloader that allows you to upload new code to it without the use of an external hardware programmer. It communicates using the original STK500 protocol. 
 You can also bypass the bootloader and program the microcontroller through the ICSP (In-Circuit Serial Programming) header using Arduino ISP or similar. 
 
-####Automatic (Software) Reset
+#### Automatic (Software) Reset
 Rather then requiring a physical press of the reset button before an upload, the Arduino Nano is designed in a way that allows it to be 
 reset by software running on a connected computer. One of the hardware flow control lines (DTR) of the FT232RL is connected to the 
 reset line of the ATmega328 via a 100 nanofarad capacitor. When this line is asserted (taken low), the reset line drops long enough to 
