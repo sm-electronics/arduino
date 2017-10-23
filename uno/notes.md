@@ -11,3 +11,4 @@ with a tilde (~)
   ```
    sudo chown root:YOURUSERNAME /dev/ttyUSB0
   ```
+5. Tutorial on [how to use shift registers](https://www.arduino.cc/en/Tutorial/ShiftOut)
