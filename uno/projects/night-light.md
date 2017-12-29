@@ -1,1 +1,0 @@
-# Motion Activated Night Light
