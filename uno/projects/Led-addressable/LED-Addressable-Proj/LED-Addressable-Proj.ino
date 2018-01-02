@@ -161,7 +161,7 @@ const TProgmemPalette16 myRedWhiteBluePalette_p PROGMEM = {
 };
 
 
-
+// Doc from FastLEd
 // Additionl notes on FastLED compact palettes:
 //
 // Normally, in computer graphics, the palette (or "color lookup table")
